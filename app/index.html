@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="App">
+<head>
+	<meta charset="UTF-8">
+	<title>Angular Test Protractor</title>
+</head>
+<body ng-controller="AppControler as ac">
+	<h1 class="page-title">Test {{ac.name}}</h1>
+    <h2 data-ng-bind="ac.surname"></h2>
+
+	<script src="/node_modules/angular/angular.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

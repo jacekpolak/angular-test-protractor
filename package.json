@@ -1,0 +1,36 @@
+{
+  "name": "angular-test-protractor",
+  "version": "1.0.0",
+  "description": "Play with protractor for Angular JS",
+  "main": "app/index.html",
+  "directories": {
+    "app": "app",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "protractor test/protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacekpolak/angular-test-protractor.git"
+  },
+  "keywords": [
+    "Angular",
+    "Protractor",
+    "TDD",
+    "Test"
+  ],
+  "author": "Jacek Polak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacekpolak/angular-test-protractor/issues"
+  },
+  "homepage": "https://github.com/jacekpolak/angular-test-protractor",
+  "dependencies": {
+    "angular": "^1.4.7"
+  },
+  "devDependencies": {
+    "httpster": "^1.0.1",
+    "protractor": "^2.4.0"
+  }
+}
